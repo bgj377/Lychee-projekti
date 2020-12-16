@@ -15,11 +15,6 @@ asennapaketit:
       - php-mbstring
       - debconf-utils
 
-#käsin tehdessä apache2 täytyy asennuksen jälkeen bootata, joten tehdään sama
-apache2:
-  service.running:
-    - refresh: True
-
 #tämä tiedosto määrittää kuinka suuria tiedostoja voidaan ladata ja
 #siinä on liian pienet oletusarvot, joten käytetään omaa tiedostoa, jossa
 #arvot ovat tarpeeksi suuret
@@ -27,12 +22,12 @@ apache2:
   file.managed:
     - source: salt://lychee/php.ini
 
-#Konfigurointitiedosto Lycheehen linkittämistä varten
+#Lycheen konfigurointitiedosto
 /etc/apache2/sites-available/lychee.conf:
   file.managed:
     - source: salt://lychee/lychee.conf
 
-#asennetaan MySql
+#Valitaan salasana MySql:n
 mysqlroot:
   debconf.set:
     - data:
@@ -43,22 +38,23 @@ mysqlroot:
 asenna_mysql_paketit:
   pkg.installed:
     - pkgs:
-      - python3-mysqldb
-      - python-pip
-      - python-dev
       - mysql-server
       - mysql-client
       - libmysqlclient-dev
+#      - python3-mysqldb
+#      - python-pip
+#      - python-dev
 
-lychee:
-  mysql_database.present
+#Seuraavilla komennoilla olisi luotu MySql:n tietokanta, tietokannan käyttäjä ja annettu oikeudet käyttäjälle,
+#mutta bugin vuoksi se ei onnistu, kaikki tämä on tehtävä käsin.
 
-lycheeuser:
-  mysql_user.present:
-    - host: localhost
-    - password: "mysqluser"
+#lychee:
+#  mysql_database.present
 
-#Seuraavaa funktio antaisi käyttäjälle oikeudet mutta sitä, ei voinut ajaa bugin vuoksi
+#lycheeuser:
+#  mysql_user.present:
+#    - host: localhost
+#    - password: "mysqluser"
 
 #lycheeuser_lycheedb:
 #  mysql_grants.present:
