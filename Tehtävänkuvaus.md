@@ -52,5 +52,7 @@ Seuraavaksi Bridget-adapter täytyy laittaa päälle, jotta koneella on IP-osoit
 
 Lycheeta voidaan alkaa alustamaan kirjoittamalla "ip-osoite/Lychee" selaimen osoitekenttään.
 
+## Lähteet
 
+[http://terokarvinen.com/2018/salt-quickstart-salt-stack-master-and-slave-on-ubuntu-linux/](http://terokarvinen.com/2018/salt-quickstart-salt-stack-master-and-slave-on-ubuntu-linux/)  
 
