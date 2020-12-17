@@ -11,4 +11,4 @@ Luodaan moduli ja kirjoitetaan komennot
 $ sudoedit /srv/salt/lychee/init.sls
 
 Ladataan paketit, jotka tarvitaan Lycheeta varten  
-![paketit](https://github.com/bgj377/Lychee-projekti/moduli-Kuvat/mo-paketit.JPG)
+![paketit](https://github.com/bgj377/Lychee-projekti/blob/main/moduli-Kuvat/mo-paketit.JPG)
