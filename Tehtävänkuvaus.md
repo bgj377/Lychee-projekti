@@ -4,10 +4,11 @@ Tällä sivustolla on kurssin "Palvelinten hallinta" harjoitustehtävä 7: "Oma 
 
 Tein modulin, joka helpottaa Lychee-sovelluksen käyttöönottoa. Lychee on selainpohjainen kuvienhallinnan sovellus. Lycheen avulla koneella olevia kuvia voidaan hallita selaimen kautta.
 
-Luodaan modulia varten kansio  
+Luodaan modulia varten kansio    
 $ mkdir -p /srv/salt/lychee/
 
-Luodaan moduli ja kirjoitetaan komennot
+Luodaan moduli ja kirjoitetaan komennot  
 $ sudoedit /srv/salt/lychee/init.sls
 
-Ladataan paketit, jotka tarvitaan Lycheeta varten
+Ladataan paketit, jotka tarvitaan Lycheeta varten  
+![paketit](https://github.com/bgj377/Lychee-projekti/moduli-Kuvat/mo-paketit.JPG)
