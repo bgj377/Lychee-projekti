@@ -34,7 +34,7 @@ Tarkoituksena oli tähän tilaan vielä mahduttaa komennot, joilla luodaan MySql
 
 ![permi](https://github.com/bgj377/Lychee-projekti/blob/main/moduli-Kuvat/mo-oikeudet.JPG)
 
-Tämä ei kuitenkaan onnistunut, koska Ubuntun Saltissa on jokin raportoitu TypeError bugi. Jos koettaisin ajaa nämä osuudet, niin saisin vain virheilmoituksia. 
+Tämä ei kuitenkaan onnistunut, koska Ubuntun Saltissa on jokin raportoitu TypeError bugi. Jos koettaisin ajaa nämä osuudet, niin saisin vain virheilmoituksia. Alla kuvaus bugista.
 
 ![bugi](https://github.com/bgj377/Lychee-projekti/blob/main/moduli-Kuvat/mo-bugi-kuva.JPG)
 
@@ -49,7 +49,7 @@ Seuraavaksi Bridget-adapter täytyy laittaa päälle, jotta koneella on IP-osoit
 
 ![iposoite](https://github.com/bgj377/Lychee-projekti/blob/main/moduli-Kuvat/mo-iposoite.JPG)
 
-Lycheeta voidaan alkaa alustamaan kirjoittamalla ip-osoite/Lychee selaimen osoitekenttään
+Lycheeta voidaan alkaa alustamaan kirjoittamalla "ip-osoite/Lychee" selaimen osoitekenttään.
 
 
 
