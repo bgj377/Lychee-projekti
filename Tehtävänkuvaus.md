@@ -54,9 +54,12 @@ Lycheeta voidaan alkaa alustamaan kirjoittamalla "ip-osoite/Lychee" selaimen oso
 
 ## Lähteet
 
-[http://terokarvinen.com/2018/salt-quickstart-salt-stack-master-and-slave-on-ubuntu-linux/](http://terokarvinen.com/2018/salt-quickstart-salt-stack-master-and-slave-on-ubuntu-linux/)  
-[https://terokarvinen.com/2018/mysql-automatic-install-with-salt-preseed-database-root-password/index.html](https://terokarvinen.com/2018/mysql-automatic-install-with-salt-preseed-database-root-password/index.html)  
-[https://docs.saltstack.com/en/3000/ref/states/all/salt.states.mysql_database.html](https://docs.saltstack.com/en/3000/ref/states/all/salt.states.mysql_database.html)  
+[http://terokarvinen.com/2018/salt-quickstart-salt-stack-master-and-slave-on-ubuntu-linux/](http://terokarvinen.com/2018/salt-quickstart-salt-stack-master-and-slave-on-ubuntu-linux/)
+
+[https://terokarvinen.com/2018/mysql-automatic-install-with-salt-preseed-database-root-password/index.html](https://terokarvinen.com/2018/mysql-automatic-install-with-salt-preseed-database-root-password/index.html)
+
+[https://docs.saltstack.com/en/3000/ref/states/all/salt.states.mysql_database.html](https://docs.saltstack.com/en/3000/ref/states/all/salt.states.mysql_database.html)
+
 [https://docs.saltstack.com/en/3000/ref/states/all/salt.states.mysql_user.html](https://docs.saltstack.com/en/3000/ref/states/all/salt.states.mysql_user.html)  
 
 [https://docs.saltstack.com/en/3000/ref/states/all/salt.states.mysql_grants.html](https://docs.saltstack.com/en/3000/ref/states/all/salt.states.mysql_grants.html)
