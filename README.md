@@ -4,5 +4,3 @@ Tällä sivustolla on Salt moduli, jonka loin palvelinten hallinta kurssia varte
 
 Lycheeta varten tarvitaan koko joukko ohjelmia ja pari konfigurointitiedostoa. Kaiken kaikkiaan Lycheen käyttöönotto vaatii paljon työtä, minkä vuoksi halusin automatisoida osan työstä Saltilla.
 
-** Lähteet **
-[Github](https://www.github.com)
