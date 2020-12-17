@@ -43,7 +43,8 @@ $ sudo mysql -u root -p
 CREATE DATABASE lychee;  
 CREATE USER ’lycheeuser’@’localhost’ IDENTIFIED BY ’*’;  
 GRANT ALL PRIVILEGES ON lychee. * TO ‘lycheeuser’@’localhost’ WITH GRANT OPTION;  
-flush privileges;
+flush privileges;  
+exit;
 
 Seuraavaksi Bridget-adapter täytyy laittaa päälle, jotta koneella on IP-osoite, jota muu maailma voi käyttää. Haetaan IP-osoite  
 
