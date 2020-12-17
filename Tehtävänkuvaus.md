@@ -59,4 +59,13 @@ Lycheeta voidaan alkaa alustamaan kirjoittamalla "ip-osoite/Lychee" selaimen oso
 [https://docs.saltstack.com/en/3000/ref/states/all/salt.states.mysql_database.html](https://docs.saltstack.com/en/3000/ref/states/all/salt.states.mysql_database.html)  
 [https://docs.saltstack.com/en/3000/ref/states/all/salt.states.mysql_user.html](https://docs.saltstack.com/en/3000/ref/states/all/salt.states.mysql_user.html)  
 
+[https://docs.saltstack.com/en/3000/ref/states/all/salt.states.mysql_grants.html](https://docs.saltstack.com/en/3000/ref/states/all/salt.states.mysql_grants.html)
+
+[https://www.digitalocean.com/community/tutorials/saltstack-infrastructure-creating-salt-states-for-mysql-database-servers](https://www.digitalocean.com/community/tutorials/saltstack-infrastructure-creating-salt-states-for-mysql-database-servers)
+
+[https://www.digitalocean.com/community/tutorials/how-to-install-linux-apache-mysql-php-lamp-stack-ubuntu-18-04](https://www.digitalocean.com/community/tutorials/how-to-install-linux-apache-mysql-php-lamp-stack-ubuntu-18-04)
+
+[https://github.com/saltstack/salt/issues/45026](https://github.com/saltstack/salt/issues/45026)
+
+[https://bugs.launchpad.net/ubuntu/+source/salt/+bug/1823364](https://bugs.launchpad.net/ubuntu/+source/salt/+bug/1823364)
 
