@@ -9,3 +9,5 @@ $ mkdir -p /srv/salt/lychee/
 
 Luodaan moduli ja kirjoitetaan komennot
 $ sudoedit /srv/salt/lychee/init.sls
+
+Ladataan paketit, jotka tarvitaan Lycheeta varten
